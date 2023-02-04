@@ -206,3 +206,36 @@ html,body{
     font-size: 24px;
     line-height: 1.3;
 }
+/* Footer */
+
+.footer{
+    padding: 60px 0 50px ;
+    background-color:var(--dark-bg);
+    color:var(--text-color);
+}
+.footer-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 27px; 
+}
+.social{
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+}
+.copyright{
+    font-size: 16px;
+}
+
+.cosial-item{
+    transition: opacity 0.2s ease-in;
+}
+
+.cosial-item:hover{
+     opacity: 0.2;
+
+}
+.cosial-item--active{
+position:relative;
+}
