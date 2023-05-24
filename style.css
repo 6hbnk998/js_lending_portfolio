@@ -403,6 +403,9 @@ html, body{
     .nav-row{
         justify-content: space-between;
     }
+    .nav-list{
+        column-gap: 40px;
+    }
     .dark-mode-btn{
         order: 0;
     }
