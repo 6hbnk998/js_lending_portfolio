@@ -400,9 +400,9 @@ html, body{
     .header_title strong{
         font-size: 40px;
     }
-    .nav-row{
+/*     .nav-row{
         justify-content: space-between;
-    }
+    } */
     .nav-list{
         column-gap: 40px;
     }
