@@ -439,4 +439,7 @@ html, body{
     .content-list__item{
         font-size: 16px;
     }
+    .icons_list{
+        column-gap: 15px;
+    }
 }
